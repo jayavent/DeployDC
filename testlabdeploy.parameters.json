@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "publicIPAddressType": {
+          "value": "Static"
+      },
+      "adminPassword": {
+          "value": "Passw0rd"
+      },
+      "domainName": {
+          "value": "testlab.net"
+      },
+      "dnsPrefix": {
+          "value": "jayuktestlab"
+      },
+      "location": {
+          "value": "West Europe"
+      },
+      "storageAccountType": {
+          "value": "Standard_LRS"
+      },
+      "virtualNetworkAddressRange": {
+          "value": "10.0.0.0/16"
+      },
+      "Subnet": {
+          "value": "10.0.0.0/24"
+      },
+      "PDCNicIPAddress": {
+          "value": "10.0.0.11"
+      },
+      "BDCNicIPAddress": {
+          "value": "10.0.0.12"
+      },
+      "PDCVMName": {
+          "value": "DC01"
+      },
+      "BDCVMName": {
+          "value": "DC02"
+      },
+      "adminUsername": {
+          "value": "localadmin"
+      },
+      "DCVMSize": {
+          "value": "Standard_A1"
+      },
+      "pdcRDPPort": {
+          "value": 3389
+      },
+      "bdcRDPPort": {
+          "value": 33892
+      }
+     }
+}
